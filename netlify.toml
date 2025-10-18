@@ -1,0 +1,6 @@
+[build]
+  command = "hexo generate"
+  publish = "public"
+
+[build.environment]
+  GIT_SUBMODULE_STRATEGY = "none"
